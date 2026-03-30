@@ -42,7 +42,7 @@ MfStub is only suitable for traditional users that enjoy DRM-free content and po
 <br/>
 
 # How to Install
-MfStub is a proxy DLL. This means you install it by renaming it to the original DLL and placing it somewhere where the target application will find it first, before finding the original DLL. You also must rename (or hardlink/symlink) the original DLL to the altered name that the proxy expects. Once installed, all of the original DLL's functions are passed through the proxy to the original, except for the functions which need to be modified (in this case, PMP session creation).
+MfStub is a proxy DLL. This means you install it by renaming it to take the original DLL's name and then placing it somewhere where the target application will find it first, before finding the original DLL. You also must rename (or hardlink/symlink) the original DLL to the altered name that the proxy DLL expects. Once installed, all of the original DLL's functions are passed through the proxy to the application using it, except for the functions which need to be manipulated (in this case, PMP session creation).
 
 Don't worry if the amount of text here makes this seem complicated. It really isn't.
 
