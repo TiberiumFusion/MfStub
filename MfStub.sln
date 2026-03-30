@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.36217.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MfStub", "MfStub\MfStub.vcxproj", "{133ADB64-33D6-4407-B1EA-146765F9C9C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|NT60_x64 = Debug|NT60_x64
+		Debug|NT60_x86 = Debug|NT60_x86
+		Debug|NT61_x64 = Debug|NT61_x64
+		Debug|NT61_x86 = Debug|NT61_x86
+		Debug|NT63_x64 = Debug|NT63_x64
+		Debug|NT63_x86 = Debug|NT63_x86
+		Debug|NTBC_x64 = Debug|NTBC_x64
+		Debug|NTBC_x86 = Debug|NTBC_x86
+		Release|NT60_x64 = Release|NT60_x64
+		Release|NT60_x86 = Release|NT60_x86
+		Release|NT61_x64 = Release|NT61_x64
+		Release|NT61_x86 = Release|NT61_x86
+		Release|NT63_x64 = Release|NT63_x64
+		Release|NT63_x86 = Release|NT63_x86
+		Release|NTBC_x64 = Release|NTBC_x64
+		Release|NTBC_x86 = Release|NTBC_x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT60_x64.ActiveCfg = NT60_Debug|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT60_x64.Build.0 = NT60_Debug|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT60_x86.ActiveCfg = NT60_Debug|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT60_x86.Build.0 = NT60_Debug|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT61_x64.ActiveCfg = NT61_Debug|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT61_x64.Build.0 = NT61_Debug|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT61_x86.ActiveCfg = NT61_Debug|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT61_x86.Build.0 = NT61_Debug|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT63_x64.ActiveCfg = NT63_Debug|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT63_x64.Build.0 = NT63_Debug|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT63_x86.ActiveCfg = NT63_Debug|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NT63_x86.Build.0 = NT63_Debug|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NTBC_x64.ActiveCfg = NTBC_Debug|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NTBC_x64.Build.0 = NTBC_Debug|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NTBC_x86.ActiveCfg = NTBC_Debug|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Debug|NTBC_x86.Build.0 = NTBC_Debug|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT60_x64.ActiveCfg = NT60_Release|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT60_x64.Build.0 = NT60_Release|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT60_x86.ActiveCfg = NT60_Release|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT60_x86.Build.0 = NT60_Release|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT61_x64.ActiveCfg = NT61_Release|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT61_x64.Build.0 = NT61_Release|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT61_x86.ActiveCfg = NT61_Release|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT61_x86.Build.0 = NT61_Release|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT63_x64.ActiveCfg = NT63_Release|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT63_x64.Build.0 = NT63_Release|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT63_x86.ActiveCfg = NT63_Release|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NT63_x86.Build.0 = NT63_Release|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NTBC_x64.ActiveCfg = NTBC_Release|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NTBC_x64.Build.0 = NTBC_Release|x64
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NTBC_x86.ActiveCfg = NTBC_Release|Win32
+		{133ADB64-33D6-4407-B1EA-146765F9C9C0}.Release|NTBC_x86.Build.0 = NTBC_Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C005405B-9FFF-4B77-A15F-1D3D6192867F}
+	EndGlobalSection
+EndGlobal
