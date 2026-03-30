@@ -135,9 +135,22 @@ This config file is not critical and can be ignored. MfStub will use default con
 
 <br/>
 
+# Building
+This repo consists of a single Visual Studio 2017 solution that builds all release artifacts.
+
+The solution contains x86 and x64 targets and platform-specific code for several versions of Windows. Each OS-specific MfStub DLL is built using the contemporary VS toolset for that OS and is statically linked with the accompanying MSVC runtime.
+- `NT60_x86` and `NT60_x64` are configured to build with the v90 (VS 2008) toolset.
+- `NT61_x86` and `NT61_x64` are configured to build with the v100 (VS 2010) toolset.
+- `NT63_x86` and `NT63_x64` are configured to build with the v120 (VS 2013) toolset.
+- `NTBC_x86` and `NTBC_x64` are configured to build with the v141 (VS 2017) toolset.
+
+If you have all the appropriate VS toolsets installed, you can download and easily build the entire solution with a single click.
+
+<br/>
+
 # Credits
 - MfStub development uses [DllProxyCreator](http://jacquelin.potier.free.fr/DllProxyCreator/) by Jacquelin Potier.
-- MfStub uses [inih](https://github.com/benhoyt/inih) by Ben Hoyt.
+- MfStub binaries uses [inih](https://github.com/benhoyt/inih) by Ben Hoyt.
 
 <br/>
 
