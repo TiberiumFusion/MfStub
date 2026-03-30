@@ -44,7 +44,7 @@ MfStub is only suitable for traditional users that enjoy DRM-free content and po
 # How to Install
 MfStub is a proxy DLL. This means you install it by renaming it to take the original DLL's name and then placing it somewhere where the target application will find it first, before finding the original DLL. You also must rename (or hardlink/symlink) the original DLL to the altered name that the proxy DLL expects. Once installed, all of the original DLL's functions are passed through the proxy to the application using it, except for the functions which need to be manipulated (in this case, PMP session creation).
 
-Don't worry if the amount of text here makes this seem complicated. It really isn't.
+Don't worry if the amount of text here makes this look complicated. It really isn't.
 
 ### 1. Download
 1. Go to the [Releases](https://github.com/TiberiumFusion/MfStub/releases) and pick a release, such as the [latest](https://github.com/TiberiumFusion/MfStub/releases/latest).
@@ -144,7 +144,7 @@ The solution contains x86 and x64 targets and platform-specific code for several
 - `NT63_x86` and `NT63_x64` are configured to build with the v120 (VS 2013) toolset.
 - `NTBC_x86` and `NTBC_x64` are configured to build with the v141 (VS 2017) toolset.
 
-If you have all the appropriate VS toolsets installed, you can download and easily build the entire solution with a single click.
+If you have all the appropriate VS toolsets installed, you can download and easily build the entire solution with a few clicks.
 
 <br/>
 
