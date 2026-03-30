@@ -494,7 +494,7 @@ C_DLL_EXPORT HRESULT __stdcall MFCreatePMPMediaSession(DWORD dwCreationFlags, IM
 		if (!AlreadyShownMfDllMissingMessageBox)
 		{
 			// Inform user that the necessasry DLL was not found, instead of failing silently
-			LPCWSTR baseMessage = L"The original mf.dll could not be found.\nPath: \"%s\"\n\nIf you are using the mfstub.json config file, check the \"OriginalMfDllName\" path and ensure it is valid.\n\nBecause the DLL was not found, the application will probably crash now.";
+			LPCWSTR baseMessage = L"The original mf.dll could not be found.\nPath: \"%s\"\n\nIf you are using the mfstub.ini config file, check the \"OriginalMfDllName\" path and ensure it is valid.\n\nBecause the DLL was not found, the application will probably crash now.";
 			LPWSTR formattedMessage = (LPWSTR)malloc( lstrlenW(baseMessage) + lstrlenW(_MfStubConfig.OriginalMfDllName) );
 			wsprintf(formattedMessage, baseMessage, _MfStubConfig.OriginalMfDllName);
 
