@@ -1,6 +1,6 @@
 # MfStub
 
-MfStub is a proxy DLL for `mf.dll`, the main system DLL for [Media Foundation](https://en.wikipedia.org/wiki/Media_Foundation).
+MfStub is a proxy DLL for `mf.dll`, the main system DLL for Windows [Media Foundation](https://en.wikipedia.org/wiki/Media_Foundation).
 
 MfStub can improve the responsiveness of applications that (poorly) use Media Foundation, including Windows Media Player, by forcing the application to always use normal media sessions, instead of slow, unresponsive, DRM-crippled sessions.
 
