@@ -124,8 +124,6 @@ MfStub will affect all applications of the target bitness (32-bit or 64-bit) on 
 
 **This install method is for power users only.** Windows updates and servicing events will break this setup and potentially cause significant headaches for you later on.
 
-<br/>
-
 ## Config
 The first time you run your target application with MfStub installed, it will try to write a `mfstub.ini` config file next to itself, inside the application directory. This config file contains a few options for controlling the behavior of MfStub. Feel free to modify them as you see fit.
 
@@ -137,11 +135,14 @@ This config file is not critical and can be ignored. MfStub will use default con
 
 <br/>
 
-# License
+# Credits
+- MfStub development uses [DllProxyCreator](http://jacquelin.potier.free.fr/DllProxyCreator/) by Jacquelin Potier.
+- MfStub uses [inih](https://github.com/benhoyt/inih) by Ben Hoyt.
 
+<br/>
+
+# Licenses
 ### MfStub
-MfStub is distributed under the MIT License.
-
 ```
 Copyright (c) 2026 TiberiumFusion
 
@@ -165,8 +166,6 @@ SOFTWARE.
 ```
 
 ### inih
-MfStub uses [inih](https://github.com/benhoyt/inih), which is distributed under the BSD 3-Clause License.
-
 ```
 The "inih" library is distributed under the New BSD license:
 
